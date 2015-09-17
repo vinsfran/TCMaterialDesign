@@ -1,0 +1,16 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tb_bottom"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize">
+
+    <ImageView
+        android:id="@+id/iv_settings"
+        android:src="@drawable/ic_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+
+</android.support.v7.widget.Toolbar>
+
